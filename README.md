@@ -136,6 +136,8 @@ Functions included in this library:
    - disconnect_all(self):
      - Properly disconnects all ESP32 devices and stops all monitoring threads.
 
+> **Note**: This work was originally developed for the ESP32 platform, taking advantage of its performance and integrated connectivity. However, the solution is highly versatile and can be adapted to any other microcontroller, provided it meets two fundamental requirements: Wi-Fi connectivity and the ability to communicate via the Modbus protocol. Consequently, the project remains hardware-agnostic, allowing for implementation across various architectures that support these networking and industrial communication standards.
+
 ## <div align="center">Contribution Guidelines</div>
 NOVA RICS Open Lab open source, and we welcome contributions from the community! See the [Contribution](CONTRIBUTING.md) guide for more information on the development workflow and the internals of the wandb library. For project related bugs and feature requests, visit [GitHub Issues](https://github.com/NOVA-RICS-Open-Lab/modbus-library/issues) or contact novaricsopenlab@gmail.com
 
