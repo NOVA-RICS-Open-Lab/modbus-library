@@ -1,4 +1,4 @@
-from esp32modbusV2 import MultiESP32Manager
+from esp32_Modbus import MultiESP32Manager
 import time
 
 # Callback function to handle background notifications (keeping it silent for automation)
