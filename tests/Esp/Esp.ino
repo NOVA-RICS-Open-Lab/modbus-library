@@ -2,12 +2,8 @@
 #include <ModbusIP_ESP8266.h>
 #include <Arduino.h>
 
-/*#define SSID "RICS-PUB"
-#define PASSWORD "ricsricsjabjab"*/
-// #define SSID "Kit FMS"
-// #define PASSWORD "demo01FMS"
-#define SSID "RICS_LAB"
-#define PASSWORD "ricsricsjabjab"
+#define SSID ""
+#define PASSWORD ""
 
 #define Pin1 35
 #define Pin2 27
@@ -44,14 +40,9 @@
 #define OFS_Atuador6 505
 #define OFS_Atuador7 506
 
-
-/*IPAddress local_IP(192, 168, 15, 1);
-IPAddress gateway(192, 168, 1, 1);    
-IPAddress subnet(255, 255, 0, 0);*/
-
-IPAddress local_IP(192, 168, 1, 21);
-IPAddress gateway(192, 168, 1, 1);    
-IPAddress subnet(255, 255, 255, 0);
+IPAddress local_IP(XXXXXXXXXX);
+IPAddress gateway(XXXXXXXXXX);    
+IPAddress subnet(XXXXXXXXXX);
 
 ModbusIP mb;
 
