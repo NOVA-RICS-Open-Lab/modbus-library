@@ -200,7 +200,7 @@ void loop() {
         s1.anterior = val;
       }
     } 
-    /*else if (s2.changed) {
+    else if (s2.changed) {
       int val = digitalRead(s2.pin);
       if(val != s2.anterior){
         mb.Ireg(s2.reg, val);
@@ -217,7 +217,7 @@ void loop() {
         s3.changed = false;
         s3.anterior = val;
       }
-    }*/
+    }
     else if (s4.changed) {
       int val = digitalRead(s4.pin);
       if(val != s4.anterior){
@@ -227,7 +227,7 @@ void loop() {
         s4.anterior = val;
       }    
     }
-    /*else if (s5.changed) {
+    else if (s5.changed) {
       int val = digitalRead(s5.pin);
       if(val != s5.anterior){
         mb.Ireg(s5.reg, val);
@@ -253,6 +253,6 @@ void loop() {
         s7.changed = false;
         s7.anterior = val;
       }
-    }*/
+    }
   }
 }
