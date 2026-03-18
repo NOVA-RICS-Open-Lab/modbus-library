@@ -3,7 +3,7 @@
 # ModBus Library
 [![License: MIT](https://img.shields.io/badge/License-MIT-red.svg)](https://opensource.org/licenses/MIT)
 
-[Rodrigo Henriques](https://www.linkedin.com/in/rodrigo-alaba%C3%A7a-gomes-henriques-561434239/)<sup>1</sup>,
+[Rodrigo Henriques](https://www.linkedin.com/in/rodrigoaghenriques/)<sup>1</sup>,
 [Raúl Dinis](https://www.linkedin.com/in/raúl-mestre-dinis)<sup>1</sup>,
 [André Rocha](https://scholar.google.pt/citations?user=k1GIyqcAAAAJ&hl=pt-PT)<sup>1</sup>
 
